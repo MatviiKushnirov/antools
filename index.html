@@ -10,236 +10,231 @@
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"/>
-    <link 
-     rel="stylesheet" 
-     href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" 
-     integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" 
-     crossorigin="anonymous" 
-     referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <a href=""><img src="./Group 159.svg" alt="elephant-A">antools.</a>
-        <nav>
-            <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="Categories">Categories</a></li>
-                <li><a href="My Collections">My Collections</a></li>
-                <li><a href="Blog">Blog</a></li>
+        <a href="" class="logo"><img src="./Group 159 (1).png" alt="elephant-A" class="">antools.</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Home</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Categories</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">My Collections</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Blog</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><button>Login</button></li>
-            <li><button>Sign Up</button></li>
+        <ul class="registration-list">
+            <li class="registration-list-item"><button class="registration-list-btn-login">Login</button></li>
+            <li class="registration-list-item"><button class="registration-list-btn-sign">Sign Up</button></li>
         </ul>
     </header>
     <main>
-    <section>
-        <h1>Awesome tools for Designer & Developer<span>.</span></h1>
-        <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        <div>
-            <img src="./search.png" alt="search">
-            <input type="text">
-            <button>Search</button>
+    <section class="hero">
+        <h1 class="hero-title">Awesome tools for Designer & Developer<span class="hero-title-point">.</span></h1>
+        <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+        <form action="" class="hero-form">
+            <input type="text" class="hero-form-input">
+            <button class="hero-form-btn">Search</button>
+        </form>
+        <ul class="socials-list">
+            <li class="socials-list-item"><a href="" class="socials-list-a"><img src="./bx_bxl-facebook.png" alt="facebook" class="socials-list-img"></a></li>
+            <li class="socials-list-item"><a href="" class="socials-list-a"><img src="./bx_bxl-instagram.png" alt="instagram" class="socials-list-img"></a></li>
+            <li class="socials-list-item"><a href="" class="socials-list-a"><img src="./bx_bxl-twitter.png" alt="twitter" class="socials-list-img"></a></li>
+        </ul>
+    </section>
+    <section class="tools">
+        <h2 class="tools-title">Most Popular Tools</h2>
+        <p class="tools-text">Tools for the best Designers and Developers most popularly used in the world</p>
+        <ul class="tools-list">
+            <li class="tools-list-item">
+                <img src="./Group.png" alt="Figma" class="tools-list-img">
+                <h3 class="tools-list-title">FIGMA</h3>
+                <p class="tools-list-text-1">Free</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+            <li class="tools-list-item">
+                <img src="./logos_sketch.png" alt="Sketch" class="tools-list-img">
+                <h3 class="tools-list-title">Sketch</h3>
+                <p class="tools-list-text-1">Trial & Paid</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+            <li class="tools-list-item">
+                <img src="./logos_visual-studio-code.png" alt="VSCode" class="tools-list-img">
+                <h3 class="tools-list-title">Visual Studio Code</h3>
+                <p class="tools-list-text-1">Free</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+            <li class="tools-list-item">
+                <img src="./notion.png" alt="Notion" class="tools-list-img">
+                <h3 class="tools-list-title">Notion</h3>
+                <p class="tools-list-text-1">Trial & Paid</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+            <li class="tools-list-item">
+                <img src="./grommet-icons_slack.png" alt="Slack" class="tools-list-img">
+                <h3 class="tools-list-title">Slack</h3>
+                <p class="tools-list-text-1">Trial & Paid</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+            <li class="tools-list-item">
+                <img src="./logos_invision-icon.png" alt="Invision" class="tools-list-img">
+                <h3 class="tools-list-title">Invision</h3>
+                <p class="tools-list-text-1">Trial & Paid</p>
+                <p class="tools-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="tools-list-sublist">
+                    <li class="tools-list-sublist-item1"><img src="./flat-color-icons_like.png" alt="like" class="tools-list-list-img1"></li>
+                    <li class="tools-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="tools-list-list-img"></li>
+                </ul>
+                <button class="tools-btn">Visit</button>
+            </li>
+        </ul>
+        <button class="tools-btn-2">Load more</button>
+    </section>
+    <section class="brands">
+        <h4 class="brands-title">Trusted more than 150+ brand</h4>
+        <ul class="brands-list">
+            <li class="brands-list-item"><img src="./logos_microsoft.png" alt="microsoft" class="brands-list-img"></li>
+            <li class="brands-list-item"><img src="./logos_google.png" alt="google" class="brands-list-img"></li>
+            <li class="brands-list-item"><img src="./logos_slack.png" alt="slack" class="brands-list-img"></li>
+            <li class="brands-list-item"><img src="/logos_wordpress.png" alt="wordpress" class="brands-list-img"></li>
+        </ul>
+    </section>
+    <section class="newcomer">
+        <h5 class="newcomer-title">Newcomer Tools</h5>
+        <p class="newcomer-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+        <button class="newcomer-btn">Explore more</button>
+        <ul class="newcomer-list">
+            <li class="newcomer-list-item">
+                <img src="./zeplin.png" alt="zeplin" class="newcomer-list-img">
+                <h6 class="newcomer-list-title">Zeplin</h6>
+                <p class="newcomer-list-text-1">Free & Paid</p>
+                <p class="newcomer-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-sublist">
+                    <li class="newcomer-list-sublist-item"><img src="./flat-color-icons_like.png" alt="like" class="newcomer-list-sublist-img"></li>
+                    <li class="newcomer-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="newcomer-list-sublist-img"></li>
+                </ul>
+                <button class="newcomer-list-item-btn">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./jb_phpstorm.png" alt="PHPStorm" class="newcomer-list-img1">
+                <h6 class="newcomer-list-title1">PHPStorm</h6>
+                <p class="newcomer-list-text-11">Free</p>
+                <p class="newcomer-list-text-22">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-sublist">
+                    <li class="newcomer-list-sublist-item2"><img src="./flat-color-icons_like.png" alt="like" class="newcomer-list-sublist-img"></li>
+                    <li class="newcomer-list-sublist-item2"><img src="./eva_folder-add-outline.png" alt="folder" class="newcomer-list-sublist-img"></li>
+                </ul>
+                <button class="newcomer-list-item-btn1">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./jb_toolbox_app.png" alt="Toolbox" class="newcomer-list-img">
+                <h6 class="newcomer-list-title">Toolbox</h6>
+                <p class="newcomer-list-text-1">Free</p>
+                <p class="newcomer-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-sublist">
+                    <li class="newcomer-list-sublist-item"><img src="./flat-color-icons_like.png" alt="like" class="newcomer-list-sublist-img"></li>
+                    <li class="newcomer-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="newcomer-list-sublist-img"></li>
+                </ul>
+                <button class="newcomer-list-item-btn">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./procreate.png" alt="Procreate" class="newcomer-list-img">
+                <h6 class="newcomer-list-title">Procreate</h6>
+                <p class="newcomer-list-text-1">Paid</p>
+                <p class="newcomer-list-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-sublist">
+                    <li class="newcomer-list-sublist-item"><img src="./flat-color-icons_like.png" alt="like" class="newcomer-list-sublist-img"></li>
+                    <li class="newcomer-list-sublist-item"><img src="./eva_folder-add-outline.png" alt="folder" class="newcomer-list-sublist-img"></li>
+                </ul>
+                <button class="newcomer-list-item-btn">Visit</button>
+            </li>
+        </ul>
+    </section>
+    <section class="testimonial">
+        <!-- <img src="./chevron-left.png" alt="chevron-left" class="testimonial-img"> -->
+        <img src="./Mask Group.png" alt="Ronald_Richards" class="testimonial-img">
+        <div class="testimonial-team">
+            <h4 class="testimonial-team-title">Ronald Richards</h4>
+            <p class="testimonial-team-text">Product Manager</p>
         </div>
-        <ul>
-            <li><a href=""><img src="./bx_bxl-facebook.png" alt="facebook"></a></li>
-            <li><a href=""><img src="./bx_bxl-instagram.png" alt="instagram"></a></li>
-            <li><a href=""><img src="./bx_bxl-twitter.png" alt="X(twitter)"></a></li>
-        </ul>
-        <div><img src="./Illustration.png" alt="Illustration"></div>
-    </section>
-    <section>
-        <h2>Most Popular Tools</h2>
-        <p>Tools for the best Designers and Developers most popularly used in the world</p>
-        <ul>
-            <li>
-                <img src="./Group.png" alt="Figma">
-                <h3>FIGMA</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./logos_sketch.svg" alt="Sketch">
-                <h3>Sketch</h3>
-                <p>Trial & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./logos_visual-studio-code.svg" alt="VSCode">
-                <h3>Visual Studio Code</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./notion.png" alt="Notion">
-                <h3>Notion</h3>
-                <p>Trial & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./grommet-icons_slack.svg" alt="Slack">
-                <h3>Slack</h3>
-                <p>Trial & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./logos_invision-icon.svg" alt="Invision">
-                <h3>Invision</h3>
-                <p>Trial & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-        </ul>
-        <button>Load more</button>
-    </section>
-    <section>
-        <h4>Trusted more than 150+ brand</h4>
-        <ul>
-            <li><img src="./logos_microsoft.png" alt="microsoft"></li>
-            <li><img src="./logos_google.png" alt="google"></li>
-            <li><img src="./logos_slack.png" alt="slack"></li>
-            <li><img src="/logos_wordpress.png" alt="wordpress"></li>
-        </ul>
-    </section>
-    <section>
-        <h5>Newcomer Tools</h5>
-        <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-        <button>Explore more</button>
-        <ul>
-            <li>
-                <img src="./zeplin.png" alt="">
-                <h6>Zeplin</h6>
-                <p>Free & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./jb_phpstorm.png" alt="PHPStorm">
-                <h6>PHPStorm</h6>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./jb_toolbox_app.png" alt="Toolbox">
-                <h6>Toolbox</h6>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-            <li>
-                <img src="./procreate.png" alt="Procreate">
-                <h6>Procreate</h6>
-                <p>Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./flat-color-icons_like.png" alt="like"></li>
-                    <li><img src="./eva_folder-add-outline.png" alt="folder"></li>
-                </ul>
-                <button>Visit</button>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <img src="./chevron-left.png" alt="chevron-left">
-        <img src="./Mask Group.png" alt="Ronald_Richards">
-        <div>
-            <h4>Ronald Richards</h4>
-            <p>Product Manager</p>
-        </div>
-        <div>
-            <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-            <img src="./“.png" alt="лапки">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+        <div class="testimonial-Group_1430">
+            <p class="testimonial-Group_1430-text">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+            <img src="./“.png" alt="лапки" class="testimonial-Group_1430-img">
+            <ul class="testimonial-Group_1430-list">
+                <li class="testimonial-Group_1430-list-item"></li>
+                <li class="testimonial-Group_1430-list-item"></li>
+                <li class="testimonial-Group_1430-list-item"></li>
             </ul>
         </div>
     </section>
-    <section>
-        <h5>Become a contributor?</h5>
-        <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-        <div>
-            <input type="text">
-            <button>Join Us</button>
+    <section class="join">
+        <h5 class="join-title">Become a contributor?</h5>
+        <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+        <div class="join-Group_1439">
+            <input type="text" class="join-Group_1439-input">
+            <button class="join-Group_1439-btn">Join Us</button>
         </div>
     </section>
     </main>
-    <footer>
-        <div>
-            <a href=""><img src="./Group 159.png" alt="elephant-A"><span>antools.</span></a>
-            <p>Copyright 2021. Antools</p>
-            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
+    <footer class="footer">
+        <div class="footer-inform">
+            <a href="" class="footer-inform-a">
+                <img src="./Group 159.png" alt="elephant-A" class="footer-inform-img">
+                <span class="footer-inform-span">antools.</span>
+            </a>
+            <p class="footer-inform-text">Copyright 2021. Antools</p>
+            <p class="footer-inform-text-2">Antool is a web collection of information on paid or free Design and Development tools</p>
         </div>
-        <div>
-            <h6>Contact Us</h6>
-            <address>
-                <ul>
-                    <li><a href="+621987463">+621987463</a></li>
-                    <li><a href="M Building, No.10 A">M Building, No.10 A</a></li>
-                    <li><a href="antools@awesome.com">antools@awesome.com</a></li>
+        <div class="footer-contacts">
+            <h6 class="footer-contacts-title">Contact Us</h6>
+            <address class="footer-contacts-address">
+                <ul class="footer-contacts-address-list">
+                    <li class="footer-contacts-address-item"><a href="+621987463" class="footer-contacts-address-list-a">+621987463</a></li>
+                    <li class="footer-contacts-address-item"><a href="M Building, No.10 A" class="footer-contacts-address-list-a">M Building, No.10 A</a></li>
+                    <li class="footer-contacts-address-item"><a href="antools@awesome.com" class="footer-contacts-address-list-a">antools@awesome.com</a></li>
                 </ul>
             </address>
         </div>
-        <div>
-            <h6>Categories</h6>
-            <p>Design</p>
-            <p>Development</p>
+        <div class="footer-categories">
+            <h6 class="footer-categories-title">Categories</h6>
+            <p class="footer-categories-text">Design</p>
+            <p class="footer-categories-text">Development</p>
         </div>
-        <div>
-            <h6>Company Info</h6>
-            <ul>
-                <li><a href="About Us">About Us</a></li>
-                <li><a href="Our Partners">Our Partners</a></li>
-                <li><a href="Blog"></a>Blog</li>
+        <div class="footer-info">
+            <h6 class="footer-info-title">Company Info</h6>
+            <ul class="footer-info-list">
+                <li class="footer-info-list-item"><a href="About Us" class="footer-info-list-a">About Us</a></li>
+                <li class="footer-info-list-item"><a href="Our Partners" class="footer-info-list-a">Our Partners</a></li>
+                <li class="footer-info-list-item"><a href="Blog" class="footer-info-list-a"></a>Blog</li>
             </ul>       
         </div>
     </footer>

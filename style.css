@@ -8,6 +8,16 @@ body{
     width: 1224px;
 }
 
+.header-content-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    padding-bottom: 58px;
+    padding-top: 26px;
+}
+
 .logo{
     font-family: Poppins;
     font-size: 22px;
@@ -16,8 +26,19 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFFE5;
-    margin-top: 34px;    
+    margin-top: 26px;    
     margin-left: 257px;
+    display: flex;
+    gap: 15px;
+}
+
+/* .logo-text{
+    margin-right: 257px;
+} */
+
+.nav-list{
+    display: flex;
+    gap: 50px;
 }
 
 .nav-list-link{
@@ -28,13 +49,19 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF8C;
-    margin-top: 34px; 
+    margin-top: 26px; 
 
 }
 
 .nav-list-link-blog{
     margin-top: 34px;    
-    margin-left: 193px;  
+    margin-right: 193px; 
+    color: #FFFFFF8C; 
+}
+
+.registration-list{
+    display: flex;
+    gap: 41px;
 }
 
 .registration-list-btn-login{
@@ -46,7 +73,7 @@ body{
     text-align: left;
     color: #FFFFFFC7;
     background-color: #1E252B;
-    margin-top: 34px;
+    margin-top: 26px;
 }
 
 .registration-list-btn-sign{
@@ -471,24 +498,31 @@ border-image-source: linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, 
     margin-top: 328px;  
 }
 
-.testimonial-Group_1430-img{
+/* .testimonial-Group_1430-img{
     width: 103px;
     height: 320px;
     rotate: -19.17 deg;  
     margin-top: 218px;
-}
+} */
 
 .testimonial-Group_1430-list{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
 
-.testimonial-Group_1430-list-item{
+.testimonial-Group_1430-list-item-btn{
+    width: 44px;
+    height: 8px;
+    border-radius: 4px; 
+    background-color: #283036;
+}
+
+.testimonial-Group_1430-list-item-orange-btn{
     width: 44px;
     height: 8px;
     border-radius: 4px;  
-}
-
-.testimonial-Group_1430-list-item:hover{
     background-color: #FF6E30;
 }
 
